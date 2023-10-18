@@ -2,3 +2,93 @@
     margin: 0;
     padding: 0;
 }
+
+nav{
+    display: flex;
+    width: auto;
+    height: 100px;
+    background: #D9D9D9;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    width: 146px;
+    height: 62px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+
+    color: #000;
+    /* font-family: Anton; */
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 88.023%;
+    letter-spacing: 1.705px;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style:none;
+}
+
+.menu_icon{
+    width: 36px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.menu_word{
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.shop{
+    color: #000;
+    text-align: center;
+    /* font-family: Anton; */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.023%; 
+    letter-spacing: 1.21px;
+    text-transform: capitalize;
+}
+
+.contact{
+    color: #000;
+    text-align: center;
+    /* font-family: Anton; */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.023%; 
+    letter-spacing: 1.21px;
+    padding-right: 0;
+}
+
+.signin{
+    color: #000;
+    text-align: center;
+    /* font-family: Anton; */
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.023%; 
+    letter-spacing: 1.21px;
+    padding-left: 0;
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
