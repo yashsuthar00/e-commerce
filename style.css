@@ -53,10 +53,10 @@ section nav .logo{
     left: -4%;
 }
 
-section nav .logo span{
+/* section nav .logo span{
     color: #6c14d0;
     text-decoration: underline;
-}
+} */
 
 section nav ul{
     list-style: none;
