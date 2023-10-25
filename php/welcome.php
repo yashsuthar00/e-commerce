@@ -19,17 +19,16 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
 
   <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan|Poppins:400,600,700&display=swap"
     rel="stylesheet" />
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="../css/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="../css/responsive.css" rel="stylesheet" />
   <!-- <base href="../Shayona-html/"> -->
-
 </head>
 
 <body>
@@ -37,45 +36,40 @@
     <!-- header section strats -->
     <header class="header_section">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg custom_nav-container" style="position:fixed; background-color: #ffffff; width: 100vw; margin-left:-20px;">
-          
-            <a class="navbar-brand" href="index.html">
-              <img src="images/logo.png" alt="" />
-              <span> Shayona </span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
+      <nav class="navbar navbar-expand-lg custom_nav-container" style="position:fixed; background-color: #ffffff; width: 100vw; margin-left:-20px;">
+          <a class="navbar-brand" href="index.html">
+            <img src="../images/logo.png" alt="" />
+            <span> Shayona </span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent" style="width: 50vw; margin-right:2vw;">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav">
-                <li class="nav-item active color">
+                <li class="nav-item active" >
                   <a class="nav-link" href="index.html" style="color: #000;">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about.html" style="color: #000;"> About</a>
+                  <a class="nav-link" href="../about.html" style="color: #000;"> About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="jewellery.html" style="color: #000;">Jewellery </a>
+                  <a class="nav-link" href="../jewellery.html" style="color: #000;">Jewellery </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html" style="color: #000;">Contact us</a>
+                  <a class="nav-link" href="../contact.html" style="color: #000;">Contact us</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link log-in" href="user.php" style="color: #000;">Login</a>
-                </li>
+                
               </ul>
             </div>
             <div class="quote_btn-container dropdown">
               <a href="#" class="btn btn-secondary " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #fff; background-color: #000; border-radius: 50%; height: 50px; width: 50px; text-align: center; position: relative;">
-                <img src="images/cart.png" alt=""  style="position: absolute; left: -10px; top:13px">
-                <div class="cart_number" id="c" style="position: absolutes; top:28px;"></div>
+                <img src="../images/cart.png" alt=""  style="position: absolute; left: -10px; top:13px">
+                <div class="cart_number" id="c" style="position: absolutes; top:28px;">0</div>
               </a>
               <ul class="dropdown-menu" id="hello" style="position:absoulute; left:-9vw;">
-              
               </ul>
             </div>
           </div>
@@ -86,7 +80,7 @@
     <!-- slider section -->
     <section class="slider_section position-relative">
       <div class="design-box">
-        <img src="images/design-1.png" alt="" />
+        <img src="../images/design-1.png" alt="" />
       </div>
       
       <div class="container">
@@ -124,7 +118,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="" />
+                    <img src="../images/slider-img.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -150,7 +144,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="" />
+                    <img src="../images/slider-img.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -176,7 +170,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="img-box">
-                    <img src="images/slider-img.png" alt="" />
+                    <img src="../images/slider-img.png" alt="" />
                   </div>
                 </div>
               </div>
@@ -198,7 +192,7 @@
             <h6>Best PRICE</h6>
           </div>
           <div class="img-box">
-            <img src="images/i-1.png" alt="" />
+            <img src="../images/i-1.png" alt="" />
           </div>
           <div class="name">
             <h5>Bracelet</h5>
@@ -209,7 +203,7 @@
             <h6>Best PRICE</h6>
           </div>
           <div class="img-box">
-            <img src="images/i-2.png" alt="" />
+            <img src="../images/i-2.png" alt="" />
           </div>
           <div class="name">
             <h5>Ring</h5>
@@ -220,7 +214,7 @@
             <h6>Best PRICE</h6>
           </div>
           <div class="img-box">
-            <img src="images/i-3.png" alt="" />
+            <img src="../images/i-3.png" alt="" />
           </div>
           <div class="name">
             <h5>Earings</h5>
@@ -258,7 +252,7 @@
         </div>
         <div class="col-md-6">
           <div class="img-box">
-            <img src="images/about-img.png" alt="" />
+            <img src="../images/about-img.png" alt="" />
           </div>
         </div>
       </div>
@@ -280,7 +274,7 @@
             <h6>Diamond Ring</h6>
           </div>
           <div class="img-box">
-            <img src="images/p-1.png" alt="" />
+            <img src="../images/p-1.png" alt="" />
           </div>
           <div class="detail-box">
             <h5>&#x20B9;<span>1000.00</span></h5>
@@ -292,11 +286,11 @@
             <h6>Diamond Ring</h6>
           </div>
           <div class="img-box">
-            <img src="images/i-2.png" alt="" />
+            <img src="../images/i-2.png" alt="" />
           </div>
           <div class="detail-box">
             <h5>&#x20B9;<span>1000.00</span></h5>
-            <a href="#"> Add to cart </a>
+            <a href="#" onclick="add('Diamond Ring')"> Add to cart </a>
           </div>
         </div>
         <div class="box">
@@ -304,11 +298,11 @@
             <h6>Diamond Ring</h6>
           </div>
           <div class="img-box">
-            <img src="images/i-3.png" alt="" />
+            <img src="../images/i-3.png" alt="" />
           </div>
           <div class="detail-box">
             <h5>&#x20B9;<span>1000.00</span></h5>
-            <a href="#"> Add to cart </a>
+            <a href="#" onclick="add('Diamond Ring')"> Add to cart </a>
           </div>
         </div>
       </div>
@@ -324,7 +318,7 @@
 
   <section class="ring_section layout_padding">
     <div class="design-box">
-      <img src="images/design-1.png" alt="" />
+      <img src="../images/design-1.png" alt="" />
     </div>
     <div class="container">
       <div class="ring_container layout_padding2">
@@ -333,12 +327,12 @@
             <div class="detail-box">
               <h4>special</h4>
               <h2>Wedding Ring</h2>
-              <a href="#" onclick="add('wedding Ring')"> Add to cart </a>
+              <a href="#" onclick="add('Wedding Ring')"> Add to cart </a>
             </div>
           </div>
           <div class="col-md-7">
             <div class="img-box">
-              <img src="images/ring-img.jpg" alt="" />
+              <img src="../images/ring-img.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -417,7 +411,7 @@
           <div class="col-md-3">
             <div class="info_logo">
               <a href="#">
-                <img src="images/logo.png" alt="" />
+                <img src="../images/logo.png" alt="" />
                 <span> Shayona </span>
               </a>
             </div>
@@ -425,7 +419,7 @@
           <div class="col-md-3">
             <div class="info_contact">
               <a href="https://maps.app.goo.gl/mQgFoNqwnHfAY1JX7" target="_blank">
-                <img src="images/location.png" alt="" />
+                <img src="../images/location.png" alt="" />
                 <span> Address </span>
               </a>
             </div>
@@ -433,7 +427,7 @@
           <div class="col-md-3">
             <div class="info_contact">
               <a href="#">
-                <img src="images/phone.png" alt="" />
+                <img src="../images/phone.png" alt="" />
                 <span> +91 9723457512</span>
               </a>
             </div>
@@ -441,7 +435,7 @@
           <div class="col-md-3">
             <div class="info_contact">
               <a href="#">
-                <img src="images/mail.png" alt="" />
+                <img src="../images/mail.png" alt="" />
                 <span> Shayona@gmail.com </span>
               </a>
             </div>
@@ -467,16 +461,16 @@
           </div>
           <div class="social_box">
             <a href="https://www.facebook.com/profile.php?id=100052408311176&mibextid=ZbWKwL" target="_blank">
-              <img src="images/fb.png" alt="" />
+              <img src="../images/fb.png" alt="" />
             </a>
             <a href="#">
-              <img src="images/twitter.png" alt="" />
+              <img src="../images/twitter.png" alt="" />
             </a>
             <a href="https://www.linkedin.com/in/krupal-patel-81795b238" target="_blank">
-              <img src="images/linkedin.png" alt="" />
+              <img src="../images/linkedin.png" alt="" />
             </a>
             <a href="https://www.instagram.com/krupal_000/" target="_blank">
-              <img src="images/insta.png" alt="" />
+              <img src="../images/insta.png" alt="" />
             </a>
           </div>
         </div>
@@ -496,10 +490,11 @@
     </p>
   </section>
   <!-- footer section -->
-
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type="text/javascript" src="js/custom.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.js"></script>
+  
+  <script type="text/javascript" src="../js/custom.js"></script>
 </body>
 
 </html>
