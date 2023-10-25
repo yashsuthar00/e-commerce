@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Men's shoes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="shortcut icon" href="image/logo.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -163,12 +163,95 @@
         </div>
     </div>
 
+    <div class="text">
+        <h1><span>“Step into style”</span> <br>
+            Discover the Finest Men's Shoes Collection online</h1>
+    </div>
 
 
 
 
 
 
+    <!-- About -->
+
+    <div class="about" id="About">
+        
+        <h1>About us</h1>
+
+        <div class="about_main">
+
+            <div class="about_text">
+                <p>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical 
+                    Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at 
+                    Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a 
+                    Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the 
+                    undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" 
+                    (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, 
+                    very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes 
+                    from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s is reproduced below 
+                    for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also 
+                    reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                </p>
+            </div>
+
+        </div>
+    
+    </div>
+
+    <!-- feedback -->
+    <div class="feedback-main">
+        <h1>Feedback</h1>
+
+        <div class="feedback">
+            
+            <div class="feedback-section">
+                <h2>Review</h2>
+                <form id="feedback-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+                <div id="feedback-message"></div>
+
+                <script>
+                    
+                    const feedbackForm = document.getElementById('feedback-form');
+                    const feedbackMessage = document.getElementById('feedback-message');
+
+                    feedbackForm.addEventListener('submit', (e) => {
+                        e.preventDefault();
+
+                        // Get the form data
+                        const name = document.getElementById('name').value;
+                        const email = document.getElementById('email').value;
+                        const message = document.getElementById('message').value;
+
+                        // You can customize the behavior here, such as sending the data to a server.
+                        // For this example, we'll just display a confirmation message.
+
+                        feedbackMessage.innerText = `Thank you, ${name}! Your feedback has been submitted.`;
+
+
+                        feedbackForm.reset();
+                    });
+
+                </script>
+            </div>
+
+            <div class="about_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.900312862549!2d72.43715247477142!3d23.064116014777632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9c1732514939%3A0xefe384ba0a79209c!2sIndus%20University!5e0!3m2!1sen!2sin!4v1698258371455!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -196,6 +279,66 @@
     
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--Footer-->
+
+        <footer>
+            <div class="footer_main">
+                <div class="tag">
+                    <h1>Contact</h1>
+                    <a href="#"><i class="fa-solid fa-house"></i>123/gujarat/india</a>
+                    <a href="#"><i class="fa-solid fa-phone"></i>+94 12 345 6789</a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i>contactmenshoes@gmail.com</a>
+                </div>
+    
+                <div class="tag">
+                    <h1>Get Help</h1>
+                    <a href="#" class="center">FAQ</a>
+                    <a href="#" class="center">Shipping</a>
+                    <a href="#" class="center">Returns</a>
+                    <a href="#" class="center">Payment Options</a>
+                </div>
+    
+                <div class="tag">
+                    <h1>Our Stores</h1>
+                    <a href="#" class="center">Ahmedabad</a>
+                    <a href="#" class="center">mumbai</a>
+                    <a href="#" class="center">Delhi</a>
+                    <a href="#" class="center">bengaluru</a>
+                </div>
+    
+                <div class="tag">
+                    <h1>Follw Us</h1>
+                    <div class="social_link">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>                    
+                    </div>
+                </div>
+    
+                <div class="tag">
+                    <h1>Newsletter</h1>
+                    <div class="search_bar">
+                        <input type="text" placeholder="You email id here">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
+    
+            </div>
+        </footer>
 
 
 
