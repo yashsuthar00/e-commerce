@@ -26,7 +26,8 @@ html{
 section{
     width: 100%;
     height: 100vh;
-    background-image: url(image/bg-3.png);
+    background:url(/image/bg-3.png) fixed center center;
+    /* background-image: url(/image/bg-3.png); */
     background-size: cover;
     background-position: center;
 }
@@ -53,10 +54,6 @@ section nav .logo{
     left: -4%;
 }
 
-/* section nav .logo span{
-    color: #6c14d0;
-    text-decoration: underline;
-} */
 
 section nav ul{
     list-style: none;
@@ -175,8 +172,8 @@ section .main .button:hover i{
 /* products caterigies */
 
 .products{
+    margin-bottom: 100px;
     width: 100%;
-    height: 70vh;
     padding: 25px 0;
 }
 
@@ -278,29 +275,144 @@ section .main .button:hover i{
 }
 
 /* product catogery completed here */
+
 .text{
-    width: 70%;
-    height: 70vh;
+    width: 80%;
+    height: auto;
 }
+
 .text h1{ 
     font-size: 70px;
     line-height: 70px;
     font-family: pyxidium quick;
-    /* background: linear-gradient(to right, #c72092,#6c14d0); */
-    /* -webkit-background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
     color: black;
-    position: relative;
-    top: 145px;
-    left: 10%;
+    margin: 50px 0 100px 150px;
 }
 
 div.text h1 span{
     font-size: 90px;
+    text-transform: uppercase;
 }
 
 
 
+
+
+
+
+
+
+
+
+/* About */
+
+.about{
+    width: 100%;
+    height: auto;
+    padding: 35px 0;
+    background-color: #EFEFEF;
+    margin: 20px 0 20px;
+}
+
+.about h1{
+    font-size: 60px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.about .about_main .about_text{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.about .about_main .about_text p{
+    line-height: 22px;
+    width: 70%;
+    text-align: justify;
+    padding: 25px 30px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 8px black;
+}
+
+
+
+/* feedback */
+.feedback-main{
+    width: 100%;
+    height: auto;
+    padding: 35px 0;
+    /* margin: 20px 0 120px; */
+}
+
+.feedback-main h1{
+    font-size: 60px;
+    margin: 0px 0 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;    
+}
+
+.feedback{
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.feedback-section {
+    width: 600px;
+    margin-left: 50px;
+    /* max-width: 600px; */
+    /* margin: 0 auto; */
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input,textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#feedback-message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.about_map iframe{
+    border-radius: 10px;
+}
 
 
 
